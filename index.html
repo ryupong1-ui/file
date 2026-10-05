@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ryu XP | Download</title>
+    <meta name="description" content="เว็บไซต์แจกไฟล์ Windows ISO และโปรแกรม Rufus">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">R</div>
+            <div>
+                <strong>Ryu XP</strong>
+                <span>Download Center</span>
+            </div>
+        </div>
+
+        <a href="#files" class="header-button">
+            ไฟล์ทั้งหมด
+        </a>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-badge">
+                <span></span>
+                Free Download
+            </div>
+
+            <h1>
+                ดาวน์โหลดไฟล์<br>
+                <span>ง่าย รวดเร็ว ปลอดภัย</span>
+            </h1>
+
+            <p>
+                รวม Windows ISO และโปรแกรมที่จำเป็น
+                สำหรับการติดตั้งและใช้งานคอมพิวเตอร์
+            </p>
+
+            <a href="#files" class="hero-button">
+                ดูไฟล์ทั้งหมด
+                <span>↓</span>
+            </a>
+
+        </section>
+
+
+        <!-- SEARCH -->
+        <section class="tools" id="files">
+
+            <div class="search-box">
+                <span>⌕</span>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="ค้นหาไฟล์..."
+                    autocomplete="off"
+                >
+            </div>
+
+            <div class="categories" id="categories">
+                <button class="category active" data-category="all">
+                    ทั้งหมด
+                </button>
+
+                <button class="category" data-category="Windows">
+                    Windows
+                </button>
+
+                <button class="category" data-category="Program">
+                    โปรแกรม
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- FILE LIST -->
+        <section class="files-section">
+
+            <div class="section-title">
+                <div>
+                    <span>DOWNLOAD</span>
+                    <h2>ไฟล์ทั้งหมด</h2>
+                </div>
+
+                <div id="fileCount">
+                    0 ไฟล์
+                </div>
+            </div>
+
+            <div id="fileList" class="file-list"></div>
+
+            <div id="emptyState" class="empty-state">
+                <div>⌕</div>
+                <h3>ไม่พบไฟล์</h3>
+                <p>ลองค้นหาด้วยคำอื่น</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div>
+            © <span id="year"></span> Ryu XP
+        </div>
+
+        <div>
+            Free Download Center
+        </div>
+
+    </footer>
+
+
+    <!-- DOWNLOAD MODAL -->
+    <div id="downloadModal" class="modal">
+
+        <div class="modal-backdrop"></div>
+
+        <div class="modal-card">
+
+            <button class="modal-close" id="modalClose">
+                ×
+            </button>
+
+            <div id="modalIcon" class="modal-icon">
+                📦
+            </div>
+
+            <h2 id="modalTitle">
+                File
+            </h2>
+
+            <p id="modalDescription">
+                Description
+            </p>
+
+            <div class="modal-info">
+
+                <div>
+                    <span>Version</span>
+                    <strong id="modalVersion">-</strong>
+                </div>
+
+                <div>
+                    <span>Size</span>
+                    <strong id="modalSize">-</strong>
+                </div>
+
+                <div>
+                    <span>Type</span>
+                    <strong id="modalType">-</strong>
+                </div>
+
+            </div>
+
+            <a
+                id="downloadButton"
+                class="download-button"
+                href="#"
+                download
+            >
+                ดาวน์โหลดไฟล์
+                <span>↓</span>
+            </a>
+
+            <div class="warning">
+                ตรวจสอบไฟล์และแหล่งที่มาก่อนติดตั้งทุกครั้ง
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
