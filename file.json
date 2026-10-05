@@ -1,0 +1,24 @@
+[
+    {
+        "id": "windows-11",
+        "name": "Windows 11 ISO",
+        "description": "ไฟล์ ISO สำหรับติดตั้ง Windows 11",
+        "category": "Windows",
+        "version": "Windows 11",
+        "size": "ประมาณ 6 GB",
+        "type": "ISO",
+        "icon": "🪟",
+        "url": "files/Windows.iso"
+    },
+    {
+        "id": "rufus",
+        "name": "Rufus",
+        "description": "โปรแกรมสร้าง USB Bootable สำหรับติดตั้ง Windows",
+        "category": "Program",
+        "version": "Latest",
+        "size": "ประมาณ 2 MB",
+        "type": "EXE",
+        "icon": "🔥",
+        "url": "files/Rufus.exe"
+    }
+]
