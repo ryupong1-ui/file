@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://google.com/$1",
+      "destination": "https://www.ryuxp.online",
       "permanent": true
     }
   ]
